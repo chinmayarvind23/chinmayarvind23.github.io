@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#050b0e"/>
+<path d="M68 67h1064M68 551h1064" stroke="#263b45"/>
+<text x="70" y="120" fill="#92afba" font-family="monospace" font-size="15" letter-spacing="2">AI / ML ENGINEER</text>
+<text x="65" y="247" fill="#e9f2f4" font-family="Georgia,serif" font-size="78">Chinmay</text>
+<text x="65" y="337" fill="#71e7f5" font-family="Georgia,serif" font-size="86" font-style="italic">Arvind</text>
+<text x="70" y="398" fill="#a8c2cd" font-family="sans-serif" font-size="23">AI agents, machine learning,</text>
+<text x="70" y="432" fill="#a8c2cd" font-family="sans-serif" font-size="23">and inference infrastructure.</text>
+<g transform="translate(860 285)"><path d="M0-143 157-54 157 129 0 218-157 129-157-54Z" fill="#102a36" stroke="#4994a5"/><path d="M0-143 157-54 0 37-157-54Z" fill="#235366" stroke="#71e7f5"/><path d="M0 37v181" stroke="#71e7f5"/><path d="M0-88 101-30 0 28-101-30Z" fill="#102630" stroke="#71e7f5"/><path d="M-101-30v75L0 103 101 45v-75L0 28Z" fill="#184356" stroke="#71e7f5"/><text x="-26" y="6" fill="#e9faff" font-family="monospace" font-size="28">CA</text><path d="M-123 111 -25 168m50 0 99-57" stroke="#71e7f5" stroke-width="5"/></g>
+<text x="70" y="593" fill="#92afba" font-family="monospace" font-size="14">PROJECTS · RESEARCH · EXPERIENCE</text>
+</svg>

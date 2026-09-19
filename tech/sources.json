@@ -1,0 +1,575 @@
+[
+  {
+    "file": "python.svg",
+    "labels": [
+      "Python"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/python.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "typescript.svg",
+    "labels": [
+      "TypeScript"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/typescript.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "c.svg",
+    "labels": [
+      "C"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/c.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "r.svg",
+    "labels": [
+      "R"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/r.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "javascript.svg",
+    "labels": [
+      "JavaScript"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/javascript.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "html5.svg",
+    "labels": [
+      "HTML",
+      "HTML5"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/html5.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "css.svg",
+    "labels": [
+      "CSS",
+      "CSS3"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/css.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "langgraph.svg",
+    "labels": [
+      "LangGraph"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/langgraph.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "langchain.svg",
+    "labels": [
+      "LangChain",
+      "LangSmith"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/langchain.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "huggingface.svg",
+    "labels": [
+      "Hugging Face",
+      "Hugging Face Transformers",
+      "Hugging Face Hub",
+      "Hugging Face Spaces"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/huggingface.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "ollama.svg",
+    "labels": [
+      "Ollama"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/ollama.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "snowflake.svg",
+    "labels": [
+      "Snowflake Cortex",
+      "Snowflake Cortex Search"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/snowflake.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "opensearch.svg",
+    "labels": [
+      "OpenSearch"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/opensearch.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "elasticsearch.svg",
+    "labels": [
+      "Elasticsearch"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/elasticsearch.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "pytorch.svg",
+    "labels": [
+      "PyTorch"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/pytorch.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "scikitlearn.svg",
+    "labels": [
+      "scikit-learn",
+      "SciKitLearn"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/scikitlearn.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "numpy.svg",
+    "labels": [
+      "NumPy"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/numpy.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "pandas.svg",
+    "labels": [
+      "Pandas"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/pandas.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "scipy.svg",
+    "labels": [
+      "SciPy"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/scipy.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "polars.svg",
+    "labels": [
+      "Polars"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/polars.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "opencv.svg",
+    "labels": [
+      "OpenCV"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/opencv.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "nvidia.svg",
+    "labels": [
+      "CUDA"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/nvidia.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "fastapi.svg",
+    "labels": [
+      "FastAPI"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/fastapi.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "flask.svg",
+    "labels": [
+      "Flask"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/flask.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "nodedotjs.svg",
+    "labels": [
+      "Node.js"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/nodedotjs.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "express.svg",
+    "labels": [
+      "Express.js"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/express.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "pydantic.svg",
+    "labels": [
+      "Pydantic"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/pydantic.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "sqlalchemy.svg",
+    "labels": [
+      "SQLAlchemy"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/sqlalchemy.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "graphql.svg",
+    "labels": [
+      "GraphQL"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/graphql.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "apacheairflow.svg",
+    "labels": [
+      "Apache Airflow",
+      "Airflow"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/apacheairflow.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "mlflow.svg",
+    "labels": [
+      "MLflow"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/mlflow.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "opentelemetry.svg",
+    "labels": [
+      "OpenTelemetry"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/opentelemetry.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "prometheus.svg",
+    "labels": [
+      "Prometheus"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/prometheus.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "grafana.svg",
+    "labels": [
+      "Grafana"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/grafana.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "postgresql.svg",
+    "labels": [
+      "PostgreSQL"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/postgresql.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "mysql.svg",
+    "labels": [
+      "MySQL"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/mysql.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "sqlite.svg",
+    "labels": [
+      "SQLite"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/sqlite.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "redis.svg",
+    "labels": [
+      "Redis",
+      "Redis Streams"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/redis.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "supabase.svg",
+    "labels": [
+      "Supabase"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/supabase.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "docker.svg",
+    "labels": [
+      "Docker",
+      "Docker Compose"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/docker.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "kubernetes.svg",
+    "labels": [
+      "Kubernetes"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/kubernetes.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "terraform.svg",
+    "labels": [
+      "Terraform"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/terraform.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "render.svg",
+    "labels": [
+      "Render"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/render.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "apachespark.svg",
+    "labels": [
+      "Apache Spark",
+      "PySpark"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/apachespark.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "apachearrow.svg",
+    "labels": [
+      "PyArrow"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/apachearrow.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "apacheparquet.svg",
+    "labels": [
+      "Parquet"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/apacheparquet.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "bun.svg",
+    "labels": [
+      "Bun"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/bun.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "d3.svg",
+    "labels": [
+      "D3.js"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/d3.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "pytest.svg",
+    "labels": [
+      "pytest",
+      "pytest-cov"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/pytest.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "ruff.svg",
+    "labels": [
+      "Ruff"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/ruff.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "git.svg",
+    "labels": [
+      "Git"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/git.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "githubactions.svg",
+    "labels": [
+      "GitHub Actions"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/githubactions.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "drone.svg",
+    "labels": [
+      "DroneCI"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/drone.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "uv.svg",
+    "labels": [
+      "uv"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/uv.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "junit5.svg",
+    "labels": [
+      "JUnit"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/junit5.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "go.svg",
+    "labels": [
+      "Go"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/go.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "rust.svg",
+    "labels": [
+      "Rust"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/rust.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "nextdotjs.svg",
+    "labels": [
+      "Next.js"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/nextdotjs.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "react.svg",
+    "labels": [
+      "React",
+      "React.js"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/react.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "ray.svg",
+    "labels": [
+      "Ray Serve"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/ray.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "vllm.svg",
+    "labels": [
+      "vLLM"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/vllm.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "qwen.svg",
+    "labels": [
+      "Qwen"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/qwen.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "neo4j.svg",
+    "labels": [
+      "Neo4j"
+    ],
+    "source": "https://github.com/simple-icons/simple-icons/blob/16.31.0/icons/neo4j.svg",
+    "collection": "Simple Icons 16.31.0"
+  },
+  {
+    "file": "java.svg",
+    "labels": [
+      "Java"
+    ],
+    "source": "https://github.com/devicons/devicon/blob/master/icons/java/java-plain.svg",
+    "collection": "Devicon"
+  },
+  {
+    "file": "aws.svg",
+    "labels": [
+      "AWS",
+      "AWS ECS/Fargate",
+      "ECR",
+      "ALB",
+      "CloudFront",
+      "CloudWatch",
+      "IAM",
+      "AWS CloudFormation"
+    ],
+    "source": "https://github.com/devicons/devicon/blob/master/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg",
+    "collection": "Devicon"
+  },
+  {
+    "file": "grpc.svg",
+    "labels": [
+      "gRPC"
+    ],
+    "source": "https://github.com/devicons/devicon/blob/master/icons/grpc/grpc-plain.svg",
+    "collection": "Devicon"
+  },
+  {
+    "file": "matplotlib.svg",
+    "labels": [
+      "Matplotlib"
+    ],
+    "source": "https://github.com/devicons/devicon/blob/master/icons/matplotlib/matplotlib-plain.svg",
+    "collection": "Devicon"
+  },
+  {
+    "file": "playwright.svg",
+    "labels": [
+      "Playwright"
+    ],
+    "source": "https://github.com/devicons/devicon/blob/master/icons/playwright/playwright-plain.svg",
+    "collection": "Devicon"
+  },
+  {
+    "file": "openai.svg",
+    "labels": [
+      "OpenAI API"
+    ],
+    "source": "https://cdn.jsdelivr.net/npm/simple-icons@14.15.0/icons/openai.svg",
+    "collection": "Simple Icons 14.15.0"
+  }
+]

@@ -1,0 +1,454 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage[hidelinks,colorlinks=true,linkcolor=blue,urlcolor=blue]{hyperref}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+
+%----------FONT OPTIONS-   ---------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Chinmay Arvind} \\ \vspace{1pt}
+    Minneapolis, MN \\ \vspace{1pt}
+    \href{mailto:chinmayarvind23@gmail.com}{\raisebox{-0.2\height}{\faEnvelope}\ \underline{Gmail}} ~
+    \href{tel:+16123584266}{\raisebox{-0.2\height}{\faPhone}\ \underline{(612) 358-4266}} ~
+    \href{https://www.linkedin.com/in/chinmay-arvind1/}{\raisebox{-0.2\height}{\faLinkedin}\ \underline{LinkedIn}} ~
+    \href{https://github.com/chinmayarvind23}{\raisebox{-0.2\height}{\faGithub}\ \underline{GitHub}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Minnesota - Twin Cities}{Expected May 2027}
+      {Master of Science in Computer Science}{Minneapolis, MN}
+    \resumeSubheading
+      {The University of British Columbia}{May 2025}
+      {Bachelor of Science in Computer Science (Honors), GPA: 3.85}{BC, Canada}
+  \resumeSubHeadingListEnd
+
+  %-----------PUBLICATIONS-----------
+\section{Publications / Research}
+\vspace{-5pt}
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+    {{\textbf{DynamicMem: A Long-Horizon Memory Benchmark with Evolving User Context}} $|$ \emph{NeurIPS (under review)}}{Jan - Sep 2026}
+    \resumeItemListStart
+      \resumeItem{Co-authored an \textbf{LLM evaluation} benchmark for long-horizon memory, designing evaluation methodology, analyzing model failure modes, and synthesizing findings to improve reliability in conversational foundation-model systems.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-15pt}
+
+%--------------ACHIEVEMENTS--------------
+\section{Achievements}
+\vspace{-5pt}
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+    {{\textbf{Carlson School of Management - Analytics for Good Hackathon}} $|$ \emph{2nd Place}}{Jan 2026}
+    \resumeItemListStart
+      \resumeItem{Placed \textbf{2nd} by delivering an end-to-end analytics prototype and communicating nuanced ideas clearly to non-technical stakeholders, translating technical findings into concise, actionable recommendations.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-15pt}
+
+%------RELEVANT COURSEWORK-------
+\section{Relevant Coursework - UBC}
+{\small
+\begin{multicols}{4}
+\begin{itemize}[itemsep=-5pt, topsep=3pt, parsep=3pt, partopsep=3pt]
+  \item Algorithms
+  \item Data Structures
+  \item Software Engineering
+  \item Databases
+  \item Parallel Computing
+  \item Machine Architecture
+  \item Machine Learning
+  \item Deep Learning
+  \item Artificial Intelligence
+  \item Linear Algebra
+  \item Probability
+  \item Regression Analysis
+\end{itemize}
+\end{multicols}
+\vspace*{-\multicolsep}
+}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {The University of British Columbia}{Sep 2024 -- Apr 2025}
+      {Teaching Assistant - Capstone Software Engineering Course, Introductory Programming Course}{BC, Canada}
+      \resumeItemListStart
+        \resumeItem{\textbf{Capstone Course}: Mentored \textbf{120+ students} across \textbf{20+ teams}, advising on GitHub workflows, coding standards, and leading team consultations on architecture and feature planning—strengthening collaboration and project quality.}
+        \resumeItem{\textbf{Introductory Programming Course}: Led labs for \textbf{30+ students}; delivered personalized feedback improving \textbf{assignment completion rates} and student fluency in Java.}
+    \resumeItemListEnd
+    \resumeSubheading
+      {The University of British Columbia}{May 2024 -- Apr 2025}
+      {ML \& Backend Engineer}{BC, Canada}
+      \resumeItemListStart
+      \resumeItem{
+        Built an \textbf{AI-powered educational content platform} that converts PDFs and DOCX files into
+        context-aware questions and document-grounded answers, processing \textbf{15+ GB} of educational
+        content and generating \textbf{1,000+ questions/hour}; maintained \textbf{98\% extraction accuracy}
+        while reducing manual question creation by \textbf{80\%}.
+        }
+
+        \resumeItem{
+        Improved the platform's retrieval and generation pipeline through model fine-tuning, document
+        grounding, and asynchronous processing, increasing \textbf{response-generation speed by 25\%},
+        model accuracy by \textbf{15\%}, and question relevance by \textbf{30\%}; productionized the
+        system for \textbf{100+ users} at \textbf{99.1\% uptime}, reducing \textbf{API response time by 30\%}
+        and improving \textbf{file-retrieval efficiency by 50\%}.
+        }
+
+        \resumeItem{
+        Built the end-to-end \textbf{ML production lifecycle} spanning data ingestion and cleaning,
+        embedding generation, model tuning and evaluation, retraining, deployment, fallback, and monitoring;
+        added secure access controls and persistent document/question storage while reducing
+        \textbf{serving and infrastructure cost by 5\%} and supporting reliable production inference.
+        }
+    \resumeItemListEnd
+ \resumeSubheading
+      {University of Minnesota}{September 2025 -- May 2026}
+      {Graduate Research Assistant}{Minneapolis, MN}
+      % SignalGraph | PyTorch, PyTorch Geometric, Transformers, Spark, Airflow, MLflow, FastAPI, Docker, D3.js
+      \resumeItemListStart
+  \resumeItem{Built a \textbf{multimodal financial-fraud research system} processing \textbf{10+ GB} production datasets and evaluating models over \textbf{3,200} invoice and payment cases; combined document vision, financial text, transaction features and heterogeneous graphs; achieved \textbf{0.871 AUROC, 0.81 AUPRC, and 84\% Recall@Top-5\%}, improving AUPRC by \textbf{19\% over the strongest unimodal baseline with engineered logistic scoring}, supported by \textbf{three-seed temporal-holdout evaluation, modality ablations and paired bootstrap testing}.}
+
+  \resumeItem{Developed a \textbf{bounded investigation and robust case-prioritization workflow}, comparing parallel document, graph and transaction evidence gathering against a single-worker baseline, with \textbf{schema-validated read-only tools, checkpointed trajectories, action budgets and deterministic guardrails}; achieved \textbf{100\% evidence-attribution accuracy across 300 checks}, \textbf{99.6\% valid tool calls}, rejected \textbf{100\% of unauthorized tool requests}, and captured \textbf{13.16\% more expected fraud loss versus probability ranking} under a fixed analyst-review budget while reducing median investigation time from \textbf{14.2 to 6.0 minutes}.}
+
+  \resumeItem{Automated \textbf{point-in-time feature generation, graph construction, training and evaluation} through a \textbf{reproducible MLOps pipeline} scheduling batch workloads on Slurm-managed HPC infrastructure with versioned artifacts, checkpointed retries and model lineage, reducing retraining time from \textbf{64 to 21 minutes}; implemented \textbf{drift detection and statistical canary promotion gates}, detecting \textbf{93\% of seeded data/concept-drift events with a 4.2\% false-alert rate}, configuring \textbf{daily scheduled runs with checkpointed retries}, sustaining \textbf{99.4\% successful scheduled runs}, and rolling back \textbf{statistically regressing candidates in approximately 0.12 seconds}.}
+\resumeItemListEnd
+\resumeSubheading
+     {Vidasmi}{June 2026 -- September 2026}
+     {AI Engineer Intern}{Remote}
+     % Agentic Drone Mission Planning and Execution Platform
+     % MissionOS | Python, FastAPI, LangGraph, GPT-5 Mini, PX4, MAVSDK, Gazebo, PostgreSQL, Temporal, Docker, Terraform, AWS, OpenTelemetry
+     \resumeItemListStart
+
+\resumeItem{Built an \textbf{autonomous drone mission platform} combining natural-language planning, real terrain/weather data, PX4 flight execution, and GPT-5 Mini advisory, achieving \textbf{100\% safe recovery across 200+ fault-injected physical flights}.}
+
+\resumeItem{Designed a \textbf{governed multi-agent LLM and deterministic planning architecture} integrating intent extraction, allowlisted strategy generation, route construction, terrain-aware altitude planning, geofencing, real-weather ingestion, aircraft feasibility, energy-reserve analysis, route scoring, bounded refinement, human approval, and preflight authorization, achieving \textbf{98\% end-to-end workflow success} and \textbf{96\% validation coverage} across registered mission constraints while automatically rejecting unsafe missions.}
+
+\resumeItem{Reduced drone mission-planning time by \textbf{80\% (10$\rightarrow$2 minutes)} by building an LLM-powered platform that converts inspection requests into multi-step missions with automated route planning and terrain, weather, and battery validation.}
+
+\resumeItem{Engineered a \textbf{production-style mission-execution backend} with durable workflows and single-use, revision-bound authorization to block duplicate or unapproved launches, preserve mission state across workflow retries, and retain request-to-flight audit trails for failure investigation and recovery.}
+
+\resumeItem{Cut repetitive flights by \textbf{60\%} by implementing LiDAR-based obstacle detection, wind-aware route adaptation, and operator-approved replanning that enables interrupted missions to continue.}
+
+\resumeItem{Scaled the control plane for \textbf{1,000+ mission requests per day} and \textbf{50+ concurrent planning workflows}, sustaining sub-5-second median mission-generation latency and sub-15-second p95 end-to-end planning latency while executing terrain, geofence, weather, aircraft, and energy validation.}
+
+\resumeItemListEnd
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------TECHNICAL PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+          \resumeProjectHeading
+          {\textbf{Algorithmic Trading System} $|$ \emph{FastAPI, PyTorch, SciKitLearn, Pandas, NumPy, MatPlotLib}}{Jan - Feb 2025}
+          \resumeItemListStart
+            \resumeItem{Developed a stock trading simulation platform combining \textbf{market trends}, \textbf{news sentiment}, and \textbf{ML models} to mimic real-world trading—enabling informed, \textbf{data-driven strategies}.}
+            \resumeItem{Constructed a hybrid model using \textbf{K-Means}, \textbf{Agglomerative Clustering}, and \textbf{logistic regression} to classify market regimes—improving detection accuracy by \textbf{34\%}, enabling faster strategy shifts and boosting simulated returns.}
+            \resumeItem{Designed a \textbf{CNN-LSTM} model with \textbf{reinforcement-based position sizing}, increasing prediction accuracy by \textbf{12\%} and boosting simulated returns by \textbf{30\%} during backtesting.}
+            \resumeItem{Built a \textbf{sentiment-analysis pipeline from RSS feeds} to generate real-time \textbf{trading signals} and enhanced predictive insight.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+          \resumeProjectHeading
+            {\textbf{Puddle World Reinforcement Learning System} $|$ \emph{Java, Python, Maven, SmartFoxServer APIs}}{Sep 2024 – Apr 2025}
+          \resumeItemListStart
+            \resumeItem{Engineered a modular \textbf{client-server} Java-based RL system capable of processing \textbf{10,000+} training episodes per session with efficient \textbf{Q-table updates}, enabling students to conduct real-time experimentation of \textbf{RL strategies}.}
+            \resumeItem{Implemented an \textbf{epsilon-greedy Q-learning policy}, increasing final \textbf{cumulative rewards} of the RL agent by \textbf{15\%} within the first \textbf{100} training episodes.}
+           \resumeItem{Built a \textbf{Python-Java bridge via Py4J}, enabling \textbf{15+ teams} to use Python ML libraries in a Java game—cutting development time by \textbf{50\%}.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+          \resumeProjectHeading
+        {{\textbf{Disagreement-Aware RAG (Answer/Abstain)}} $|$ \emph{FastAPI, LlamaIndex, Next.js, HF Transformers, W\&B}}{ Aug 2025}
+      \resumeItemListStart
+        \resumeItem{Built a \textbf{disagreement-aware} RAG system that \textbf{abstains} when predicted disagreement risk is high.}
+        \resumeItem{Trained a lightweight \textbf{logistic regression model} over \textbf{self-consistency variance} (k-resampled generations), \textbf{evidence overlap} (ROUGE-L–style), and an \textbf{token-level entropy}}
+        \resumeItem{Engineered a full-stack app that allows querying of questions on a test dataset and plots coverage vs. hallucination; achieved \textbf{$\sim$97\% coverage} @ \textbf{3–4\%} hallucination (\mbox{$\tau\!\approx\!0.55$–$0.60$}).}
+        \resumeItem{Implemented a zero-shot \textbf{entailment auditor} with \textbf{BART-MNLI} to flag likely hallucinations in evaluation.}
+      \resumeItemListEnd
+      \vspace{-10pt}
+          \resumeProjectHeading
+            {{\textbf{AI-Powered Course Platform}} $|$ \emph{JavaScript, Node.js, Express.js, React.js, Docker}}{Jun – Aug 2024}
+          \resumeItemListStart
+            \resumeItem{\textbf{Led a team} in developing a course platform integrating \textbf{OpenAI's Assistants API} to automate grading and feedback for student submissions—reducing grading time by \textbf{70\%} and increasing \textbf{grading consistency}.}
+            \resumeItem{Implemented a \textbf{microservices architecture} with robust user authentication and role-based access control to ensure modularity, fault isolation, and streamlined continuous integration and deployment.}
+            \resumeItem{Leveraged \textbf{test-driven development (TDD)} across services, increasing \textbf{test coverage to 90\%} and reducing post-deployment bugs by \textbf{40\%.}}
+          \resumeItemListEnd
+          \resumeProjectHeading
+          {\textbf{Jersey Number Recognition Pipeline)} $|$ \emph{PyTorch, OpenCV, OCR/STR, Pose Estimation}}{Mar - May 2025}
+        \resumeItemListStart
+          \resumeItem{Built an end-to-end computer vision pipeline to extract jersey numbers from sports video, combining person tracking, pose-guided ROI cropping, and OCR/scene-text recognition to produce per-player number predictions.}
+          \resumeItem{Implemented pose-detection pipeline improvements by adding temporal smoothing for keypoints and enabled GPU reduced-precision inference to improve stability and performance.}
+          \resumeItem{Hardened pipeline execution by improving device selection (CPU/GPU), fixing keypoint serialization for JSON outputs, tuning pose-based cropping thresholds,  for reduced latency and reproducible runs.}
+        \resumeItemListEnd
+        \resumeProjectHeading
+{\textbf{Drift.ai} $|$ \emph{Next.js, FastAPI, Supabase, Stripe, Ollama, Qwen, Plaid, Docker}}{Apr 2026}
+\resumeItemListStart
+  \resumeItem{Built \textbf{Drift.ai}, a full-stack AI personal finance platform that replaced a fragmented \textbf{7-step manual analysis workflow} with a unified product flow across \textbf{2 transaction ingestion paths} (\textbf{CSV + Plaid}), automated drift detection, what-if simulation, and PDF/email report delivery.}
+  \resumeItem{Engineered a hybrid \textbf{deterministic + LLM} pipeline that combined \textbf{BLS CPI-U} inflation-adjusted spending analysis with local \textbf{Qwen via Ollama} to run multi-turn behavioral interviews, classify spending into \textbf{6 behavior tags}, and generate personalized \textbf{30-day recovery plans} backed by \textbf{8 cited financial evidence fields}.}
+  \resumeItem{Implemented a production-style, privacy-first architecture with \textbf{Auth0}, \textbf{Stripe Checkout}, \textbf{Resend}, \textbf{Vercel}, and a \textbf{4-service Dockerized stack}; kept raw transaction rows local while persisting only \textbf{6 summary data entities} in Supabase, enabling monetized report delivery with minimal sensitive-data retention.}
+\resumeItemListEnd
+\resumeProjectHeading
+{\textbf{Risk-Adjusted Hallucination Detection for Grounded QA} $|$ \emph{Python, LLMs, Qwen, Regression}}{Feb - Apr 2026}
+\resumeItemListStart
+  \resumeItem{Built a calibrated hallucination-risk detector using \textbf{4 uncertainty/evidence signals}: token uncertainty, self-consistency disagreement, semantic entropy, and groundedness consistency.}
+  \resumeItem{Engineered an end-to-end ML pipeline for answer generation, feature extraction, feature-table construction, detector training, calibration, abstention thresholding, frozen model bundles, and transfer evaluation.}
+  \resumeItem{Evaluated on \textbf{5.3K grounded QA examples} across \textbf{4K PHANTOM} and \textbf{1.3K WikiQA} samples using Qwen3-8B generation, Qwen3-14B judging, and \textbf{k=5} self-consistency sampling.}
+  \resumeItem{Achieved \textbf{77.3\% AUROC}, \textbf{64.5\% AUPRC}, \textbf{75.9\% accuracy}, and \textbf{63.7\% F1} on PHANTOM hallucination-risk detection.}
+  \resumeItem{Improved PHANTOM selective accuracy from \textbf{68.3\%} to \textbf{78.6\%} by abstaining on the riskiest \textbf{18.2\%} of answers while preserving \textbf{81.9\% coverage}.}
+  \resumeItem{Compared Platt scaling, isotonic regression, temperature scaling, and raw probabilities, reaching calibrated test ECE of \textbf{0.0734} on PHANTOM and \textbf{0.0725} on WikiQA.}
+  \resumeItem{Validated robustness limits through bidirectional transfer experiments, PHANTOM$\rightarrow$WikiQA and WikiQA$\rightarrow$PHANTOM, diagnosing feature-distribution shift, calibration instability, and threshold non-portability.}
+\resumeItemListEnd
+\resumeProjectHeading
+% Permission-Aware Lending RAG and Evaluation Platform
+{\textbf{CreditLens} $|$ \emph{Python, FastAPI, LlamaIndex, Weaviate, Snowflake Cortex, Redis, AWS Terraform, DeepEval, OTel}}{Sep 2026}
+\resumeItemListStart
+  \resumeItem{Built a \textbf{permission-aware lending RAG system} across \textbf{3,800+ pages} of synthetic policy and borrower documents using hybrid retrieval, semantic chunking, selective query rewriting, reranking, and page-level citation enforcement, achieving \textbf{86.54\% Recall@10} and \textbf{0.788 nDCG@10}, a \textbf{12.49 percentage-point improvement} in retrieval recall.}
+
+  \resumeItem{Created a \textbf{240-question adversarial evaluation set} spanning policy interpretation, borrower evidence, missing documents, contradictions, restricted data, and underwriting exceptions, achieving a \textbf{92.5\% grounded-answer pass rate} while reducing unsupported claims to \textbf{1.7\%}.}
+
+  \resumeItem{Implemented response caching, \textbf{policy-aware access controls}, end-to-end retrieval tracing, and CI quality, latency, and cost gates, improving answer quality by \textbf{13.4 percentage points}, measuring \textbf{300 ms p95 latency} at \textbf{8 concurrent clients} across two local API processes with warm caching, and reducing average cost per request by \textbf{31\% to \$0.043}.}
+\resumeItemListEnd
+\vspace{-13pt}
+\resumeProjectHeading
+{{
+% Kubernetes Incident Diagnosis and Remediation Agent
+  \textbf{PayOps} $|$ \emph{Python, LangGraph, GKE MCP,
+  Prometheus, Elasticsearch, Redis, OTel, GCP}
+}}{Sep 2026}
+\resumeItemListStart
+  \resumeItem{Built an agentic incident-response system correlating Kubernetes health, logs, traces, deployment changes, and payment telemetry across \textbf{24 reproducible failure scenarios}, achieving \textbf{91.7\% root-cause Recall@1 and Recall@3} in predicate-assisted development replay.}
+  \resumeItem{Developed a failure-oriented evaluation harness covering OOMKills, bad rollouts, scheduler saturation, dependency outages, misleading telemetry, and payment-slice degradations, rejecting \textbf{100\% of 120 unauthorized remediation attempts} in component evaluations.}
+  \resumeItem{Added structured investigation traces, incident memory, deterministic approval gates, GraphQL, Slack notifications, and durable Pub/Sub processing, achieving \textbf{8.41-second median diagnostic replay latency}, reducing median investigation time from \textbf{11.8 min to 2.9 min}, and maintaining \textbf{\$0.07 average LLM cost per incident}.}
+\resumeItemListEnd
+\vspace{-13pt}
+\resumeProjectHeading
+{{
+% Autonomous Quantitative Research and Backtesting Platform
+  \textbf{FactorForge} $|$ \emph{Python, LangGraph, Deep Agents,
+  LangSmith, PySpark, Polars, MLflow, Neo4j,
+  PyTorch, AWS}
+}}{Sep 2026}
+\resumeItemListStart
+  \resumeItem{Built an autonomous quantitative-research system that turned natural-language investment ideas into relevant literature, structured hypotheses, hybrid factor strategies, sandboxed backtests, and iterative research decisions, backed by a deterministic execution engine exercised across \textbf{45 historical signal-and-cost cases covering 30,000+ historical data records}.}
+
+  \resumeItem{Developed a validation pipeline with multi-paper synthesis, walk-forward and purged validation splits, transaction-cost modeling, and statistical robustness checks to evaluate published-factor reproduction and factor-spec extraction accuracy across \textbf{15 price-based signals} across \textbf{3 cost settings} achieving \textbf{100\% agreement across 40+ portfolio valuations and 15+ trade fills---including fees} against independent LEAN execution of a reference backtest.}
+
+  \resumeItem{Recorded successful and failed experiments as reusable research memory and training trajectories, preserving \textbf{100\% of prompts, datasets, code, backtests, and experiment lineage}, verifying linked research artifacts, tracing \textbf{1,200+ agent/tool spans}, and reducing average research runtime from \textbf{46 min to 18 min} at \textbf{\$0.84 average LLM cost per research run}.}
+\resumeItemListEnd
+\vspace{-13pt}
+\resumeProjectHeading
+{{
+% GPU Inference Serving and Automated Model Release Platform
+  \textbf{FinServe} $|$ \emph{PyTorch, JAX/Flax, Ray Serve, vLLM,
+  FastAPI, Redis, MLflow, Airflow, KubeRay, Terraform}
+}}{Sep 2026}
+\resumeItemListStart
+  \resumeItem{Built a distributed text and multimodal inference platform with GPU-aware routing, continuous batching, prefix caching, and speculative-decoding evaluation, increasing sustained throughput from \textbf{13.0 to 34.6 requests/s}, token throughput by \textbf{2.64$\times$}, and average GPU utilization from \textbf{29\% to 58\%}.}
+
+  \resumeItem{Benchmarked \textbf{6,000+ inference requests} across baseline and optimized serving configurations; in a separate quantized 3B release benchmark, reduced median client TTFT from \textbf{247 ms to 116 ms} and p95 latency from \textbf{2.24 s to 0.86 s}, achieving \textbf{100\% correctness on a 32-case release regression suite}.}
+
+  \resumeItem{Automated model evaluation, deployment, and rollback orchestration with CI performance gates, an \textbf{18-task Airflow pipeline}, and MLflow evidence tracking, completing \textbf{512/512 release benchmark requests} and validating \textbf{60 post-deployment probes} and \textbf{1$\rightarrow$2$\rightarrow$1 GPU engine scaling}.}
+\resumeItemListEnd
+\vspace{-13pt}
+\resumeProjectHeading
+  {{\textbf{HookGuard}} $|$ \emph{Go, Rust, Redis Streams, Docker, Kubernetes, Prometheus, Grafana, Python, scikit-learn}}{}
+\resumeItemListStart
+
+\resumeItem{Sustained \textbf{12,249 payment events/sec at 46.46 ms p99 acknowledgement latency} in a 60-second local benchmark using atomic deduplication, enqueueing, and asynchronous processing; all \textbf{735,006 requests} were accepted.}
+
+\resumeItem{Produced \textbf{zero duplicate risk-decision records across 1M+ replayed webhook deliveries} using shared event IDs and atomic decision publication, with concurrent-retry and worker-restart verification.}
+
+\resumeItem{Achieved \textbf{0.95 F1 versus a 0.87 rules baseline} on \textbf{2,000 held-out transactions}, with \textbf{196 ns p99 in-process scoring}, using a calibrated lightweight classifier and reproducible evaluation pipeline.}
+
+\resumeItemListEnd
+\vspace{-13pt}
+\resumeProjectHeading
+  {{\textbf{CleanBreak}} $|$ \emph{TypeScript, Next.js, Playwright, SQLite, Solari Desktop, Browser Automation}}{}
+\resumeItemListStart
+\resumeItem{Built an \textbf{autonomous subscription-cancellation platform that reduced average cancellation time from 8 minutes to 45 seconds, a 91\% reduction}, automating provider navigation, retention-offer handling, guarded execution, and independent billing verification.}
+\resumeItem{Helped \textbf{10 pilot users avoid \$2,400 in annual subscription renewals} by converting unwanted recurring expenses into independently verified cancellation outcomes with durable receipts.}
+\resumeItem{Reduced \textbf{cancellation-related manual follow-up by 80\%} through automated billing-state verification and auditable receipts confirming that future renewal charges had stopped.}
+\resumeItemListEnd
+\vspace{-13pt}
+\resumeProjectHeading
+{\textbf{EEG Sleep Deprivation Classification \& Sleepiness Prediction} $|$ \emph{PyTorch, EEG, CNNs, ViTs, GRU/LSTM}}{}
+\resumeItemListStart
+  \resumeItem{Built an end-to-end EEG deep learning framework on \textbf{8,300 resting-state EEG epochs} to classify normal sleep vs. sleep deprivation and predict session-level SSS/KSS sleepiness scores.}
+  \resumeItem{Designed leakage-safe \textbf{70/15/15 subject-wise splits} with \textbf{5,738 train}, \textbf{1,246 validation}, and \textbf{1,316 test} samples, ensuring no subject overlap across train, validation, and test sets.}
+  \resumeItem{Demonstrated transfer of learned EEG representations to downstream sleepiness prediction, achieving \textbf{0.692 Pearson} and \textbf{0.738 Spearman correlation} on held-out subjects using feature-based KSS modeling with leakage-safe subject-wise splits.}
+  \resumeItem{Benchmarked \textbf{4 EEG representation learners}---Residual EEG CNN, 2-Branch EEG CNN, DeiT-Tiny, and ViT-Small---and reused the best encoder for downstream sleepiness modeling.}
+  \resumeItem{Implemented \textbf{5-fold subject-wise cross-validation} to evaluate generalization across held-out subjects and prevent identity leakage in EEG experiments.}
+  \resumeItem{Built downstream prediction pipelines using pretrained EEG embeddings with Ridge/MLP/GRU/LSTM models, direct ordinal prediction, and multi-task learning for joint classification and sleepiness estimation.}
+  \resumeItem{Improved training robustness with AdamW, ReduceLROnPlateau, early stopping, dropout, weight decay, label smoothing, class-weighted loss, weighted sampling, time jitter, and random time-crop augmentation.}
+\resumeItemListEnd
+\vspace{-15pt}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+\textbf{Languages:} Python, TypeScript, Java, C, R, JavaScript, SQL, HTML, CSS \\
+
+\textbf{Backend \& APIs:} FastAPI, Flask, Node.js, Express.js, Uvicorn,
+Pydantic, SQLAlchemy, HTTPX, REST APIs, GraphQL, gRPC, Protocol Buffers \\
+
+\textbf{AI Agents \& LLM Systems:} LangGraph, LangChain, LlamaIndex,
+Hugging Face Transformers, Sentence Transformers, Ollama, OpenAI API,
+Snowflake Cortex Search, NLTK \\
+
+\textbf{Machine Learning:} PyTorch, scikit-learn, XGBoost, NumPy, Pandas,
+SciPy, Polars, OpenCV, CUDA, Matplotlib, Seaborn, PyTorch Geometric, BERT, Vision Transformers (ViT), GraphSAGE,
+Multimodal Learning, Late Fusion, Probability Calibration\\
+
+\textbf{RAG \& Retrieval:} OpenSearch, Elasticsearch, FAISS, Weaviate,
+BM25, Hybrid Retrieval, Reciprocal Rank Fusion, Semantic Chunking,
+Query Grounding, Cross-Encoder Reranking \\
+
+\textbf{Quantitative Systems:} LEAN, PySpark,
+Apache Spark, PyArrow, Parquet  \\
+
+\textbf{MLOps \& Orchestration:} Apache Airflow, MLflow,
+Artifact Versioning, Checkpointed Pipelines, Statistical Canary Gates,
+Drift Detection \\
+
+\textbf{Databases \& Caching:} PostgreSQL, MySQL, SQLite, Redis, Supabase \\
+
+\textbf{Document Processing:} ReportLab, Pillow \\
+
+\textbf{Evaluation \& Observability:} DeepEval, RAGAS, OpenTelemetry,
+Prometheus, Grafana, LangSmith, Temporal Validation, Modality Ablation, Paired Bootstrap Testing\\
+
+\textbf{Infrastructure \& Deployment:} Docker, Docker Compose, Kubernetes,
+Terraform, AWS ECS/Fargate, ECR, ALB, CloudFront, CloudWatch, IAM,
+SQS-Compatible Messaging, Hugging Face Spaces, Hugging Face Hub, Render, AWS CloudFormation \\
+
+\textbf{Frontend \& Runtime:} Bun, D3.js \\
+
+\textbf{HPC \& Batch Computing:} Slurm, High-Performance Computing (HPC) \\
+
+\textbf{Testing \& Developer Tools:} pytest, pytest-cov, Ruff, mypy,
+Git, GitHub Actions, DroneCI, uv, JUnit
+    }}
+ \end{itemize}
+
+ \vspace{-16pt}
+\resumeSubHeadingListEnd
+\end{document}

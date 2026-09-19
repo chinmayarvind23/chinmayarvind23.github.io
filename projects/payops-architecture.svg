@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="540" viewBox="0 0 1000 540" role="img" aria-labelledby="title desc">
+<title id="title">PayOps architecture</title>
+<desc id="desc">Selected documented paths from the public repository README. Reasoning may request more evidence; execution remains separate from diagnosis and includes health checks.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 1 L8 5 L0 9" fill="none" stroke="#59d8dc" stroke-width="1.4"/></marker></defs>
+<rect width="1000" height="540" rx="8" fill="#071115"/>
+<path d="M32 103H968" stroke="#243941"/>
+<text x="34" y="38" fill="#59d8dc" font-family="Arial,sans-serif" font-size="13" letter-spacing="2">ARCHITECTURE / DOCUMENTED PATHS</text>
+<text x="34" y="79" fill="#eef8f8" font-family="Arial,sans-serif" font-size="30" font-weight="600">PayOps</text>
+<text x="34" y="174" fill="#91a9b0" font-family="Arial,sans-serif" font-size="12" letter-spacing=".8">EVIDENCE</text>
+<rect x="168.0" y="137" width="251.3" height="76" rx="5" fill="#102028" stroke="#35525b"/>
+<text x="293.7" y="182" fill="#e2f3f3" font-family="Arial,sans-serif" font-size="20" text-anchor="middle">Incident + identity</text>
+<path d="M422.3 175H438.3" stroke="#59d8dc" stroke-width="1.4" marker-end="url(#arrow)"/>
+<rect x="442.3" y="137" width="251.3" height="76" rx="5" fill="#102028" stroke="#35525b"/>
+<text x="568.0" y="182" fill="#e2f3f3" font-family="Arial,sans-serif" font-size="20" text-anchor="middle">Scoped readers</text>
+<path d="M696.7 175H712.7" stroke="#59d8dc" stroke-width="1.4" marker-end="url(#arrow)"/>
+<rect x="716.7" y="137" width="251.3" height="76" rx="5" fill="#102028" stroke="#35525b"/>
+<text x="842.3" y="182" fill="#e2f3f3" font-family="Arial,sans-serif" font-size="20" text-anchor="middle">Verified evidence</text>
+<text x="34" y="288" fill="#91a9b0" font-family="Arial,sans-serif" font-size="12" letter-spacing=".8">DIAGNOSIS</text>
+<rect x="168.0" y="251" width="251.3" height="76" rx="5" fill="#102028" stroke="#35525b"/>
+<text x="293.7" y="296" fill="#e2f3f3" font-family="Arial,sans-serif" font-size="20" text-anchor="middle">Durable LangGraph</text>
+<path d="M422.3 289H438.3" stroke="#59d8dc" stroke-width="1.4" marker-end="url(#arrow)"/>
+<rect x="442.3" y="251" width="251.3" height="76" rx="5" fill="#102028" stroke="#35525b"/>
+<text x="568.0" y="296" fill="#e2f3f3" font-family="Arial,sans-serif" font-size="20" text-anchor="middle">Bounded reasoning</text>
+<path d="M696.7 289H712.7" stroke="#59d8dc" stroke-width="1.4" marker-end="url(#arrow)"/>
+<rect x="716.7" y="251" width="251.3" height="76" rx="5" fill="#102028" stroke="#35525b"/>
+<text x="842.3" y="296" fill="#e2f3f3" font-family="Arial,sans-serif" font-size="20" text-anchor="middle">Incident report</text>
+<text x="34" y="402" fill="#91a9b0" font-family="Arial,sans-serif" font-size="12" letter-spacing=".8">REMEDIATION</text>
+<rect x="168.0" y="365" width="251.3" height="76" rx="5" fill="#102028" stroke="#35525b"/>
+<text x="293.7" y="410" fill="#e2f3f3" font-family="Arial,sans-serif" font-size="20" text-anchor="middle">Action proposal</text>
+<path d="M422.3 403H438.3" stroke="#59d8dc" stroke-width="1.4" marker-end="url(#arrow)"/>
+<rect x="442.3" y="365" width="251.3" height="76" rx="5" fill="#102028" stroke="#35525b"/>
+<text x="568.0" y="398" fill="#e2f3f3" font-family="Arial,sans-serif" font-size="20" text-anchor="middle">Policy + human</text>
+<text x="568.0" y="422" fill="#e2f3f3" font-family="Arial,sans-serif" font-size="20" text-anchor="middle">approval</text>
+<path d="M696.7 403H712.7" stroke="#59d8dc" stroke-width="1.4" marker-end="url(#arrow)"/>
+<rect x="716.7" y="365" width="251.3" height="76" rx="5" fill="#102028" stroke="#35525b"/>
+<text x="842.3" y="410" fill="#e2f3f3" font-family="Arial,sans-serif" font-size="20" text-anchor="middle">Revalidate + execute</text>
+<path d="M32 477H968" stroke="#243941"/>
+<text x="34" y="503" fill="#91a9b0" font-family="Arial,sans-serif" font-size="14">Reasoning may request more evidence; execution remains separate from diagnosis and includes health checks.</text>
+</svg>
