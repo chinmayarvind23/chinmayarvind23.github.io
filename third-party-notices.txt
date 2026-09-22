@@ -2,6 +2,10 @@
 
 This file records dependencies and source adaptations in the portfolio. Direct imports, adapted implementation ideas, and visual references are identified separately. A reference listed here does not imply endorsement by its authors.
 
+## Google Cloud technology icon
+
+`static/tech/googlecloud.svg` is the Google Cloud mark from Simple Icons, retrieved on 22 September 2026 from https://github.com/simple-icons/simple-icons/blob/develop/icons/googlecloud.svg. Simple Icons uses CC0; its license is retained in `static/tech/LICENSE-simple-icons.txt`. The mark identifies the technology and does not imply endorsement.
+
 ## Runtime dependencies and fonts
 
 The following license texts are copied from the versions installed in this workspace. Production distribution should retain this document with the built site.
