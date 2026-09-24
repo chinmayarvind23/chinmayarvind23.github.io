@@ -567,7 +567,9 @@
   {
     "file": "openai.svg",
     "labels": [
-      "OpenAI API"
+      "OpenAI API",
+      "OpenAI SDK",
+      "Codex"
     ],
     "source": "https://cdn.jsdelivr.net/npm/simple-icons@14.15.0/icons/openai.svg",
     "collection": "Simple Icons 14.15.0"
