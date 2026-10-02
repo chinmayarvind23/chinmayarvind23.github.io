@@ -1,0 +1,1 @@
+import{s as e}from"./CYbOVlWx.js";function t(t,n){throw new e(t,n)}export{t};
