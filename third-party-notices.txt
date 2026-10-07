@@ -842,3 +842,13 @@ limitations under the License.
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
+
+## Visual references (October 2026)
+
+Special Text, by tom_ui: https://21st.dev/@tom_ui/components/special-text
+
+ScrambleText.svelte adapts the two-phase random-character/reveal source supplied by the user, while keeping the website's fonts. Motion and React are not added as dependencies.
+
+The calm background shader is original code. It uses a single low-resolution pass for broad, faint cyan shading. Phones and CPU-only devices render the same shading with a small 2D canvas. Reduced motion, data saving, and hidden pages pause animation.
+
+The browser assistant, thinking orb, Quantum Nebula particles, and retropc contact artwork were removed at the user's request. Their assets and code are no longer bundled.
