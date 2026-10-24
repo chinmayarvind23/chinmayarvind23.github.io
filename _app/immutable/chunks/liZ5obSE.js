@@ -1,1 +1,0 @@
-import"./DPNKEcpV.js";function e(e,t){return typeof e.addEventListener==`function`?(e.addEventListener(`change`,t),()=>e.removeEventListener(`change`,t)):(e.addListener(t),()=>e.removeListener(t))}export{e as t};
