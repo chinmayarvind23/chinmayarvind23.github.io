@@ -5,20 +5,55 @@
     <link rel="icon" type="image/svg+xml" href="../favicon.svg?v=2" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#050505" />
-    <link href="../_app/immutable/entry/start.BFUqgsEA.js" rel="modulepreload">
-		<link href="../_app/immutable/chunks/DDdHWfFz.js" rel="modulepreload">
+    <script>
+      (() => {
+        const root = document.documentElement;
+        if (location.pathname !== '/' || (location.hash && location.hash !== '#overview')) return;
+        try { if (sessionStorage.getItem('portfolio-intro-seen') === '1') return; } catch {}
+        root.dataset.portfolioBoot = 'pending';
+        root.dataset.portfolioBootUntil = String(Date.now() + 4500);
+        function release() {
+          clearTimeout(timeout);
+          root.dataset.portfolioBoot = 'released';
+          delete root.dataset.portfolioBootUntil;
+          document.removeEventListener('portfolio:loader-ready', release);
+          document.removeEventListener('click', skip);
+          document.removeEventListener('keydown', escape);
+        }
+        function dismiss() {
+          root.dataset.portfolioIntro = 'seen';
+          try { sessionStorage.setItem('portfolio-intro-seen', '1'); } catch {}
+          release();
+        }
+        function skip(event) { if (event.target instanceof Element && event.target.closest('.skip-intro')) dismiss(); }
+        function escape(event) { if (event.key === 'Escape') dismiss(); }
+        const timeout = setTimeout(release, 4500);
+        document.addEventListener('portfolio:loader-ready', release, { once: true });
+        document.addEventListener('click', skip);
+        document.addEventListener('keydown', escape);
+      })();
+    </script>
+    <style>
+      @media screen {
+        html[data-portfolio-boot='pending'] { overflow: hidden; }
+        html[data-portfolio-boot='pending'] body { visibility: hidden; }
+        html[data-portfolio-boot='pending'] .portfolio-boot-screen { display: block; visibility: visible; }
+      }
+    </style>
+    <link href="../_app/immutable/entry/start.DYTWcvgG.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/DPNKEcpV.js" rel="modulepreload">
 		<link href="../_app/immutable/chunks/yBSktz_F.js" rel="modulepreload">
-		<link href="../_app/immutable/entry/app.DS5iXkoH.js" rel="modulepreload">
+		<link href="../_app/immutable/entry/app.qJypKCrc.js" rel="modulepreload">
 		<link href="../_app/immutable/chunks/uBIymjUX.js" rel="modulepreload">
 		<link href="../_app/immutable/chunks/xihTtKlq.js" rel="modulepreload">
-		<link href="../_app/immutable/nodes/0.PhX4DRpt.js" rel="modulepreload">
-		<link href="../_app/immutable/chunks/kWEtXYKJ.js" rel="modulepreload">
+		<link href="../_app/immutable/nodes/0.BPwiq6YZ.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/Pn2ln-ok.js" rel="modulepreload">
 		<link href="../_app/immutable/chunks/DLtlxMhz.js" rel="modulepreload">
 		<link href="../_app/immutable/chunks/DfB_hgB4.js" rel="modulepreload">
-		<link href="../_app/immutable/chunks/Du_JTZxf.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/liZ5obSE.js" rel="modulepreload">
 		<link href="../_app/immutable/chunks/CCvYLlDa.js" rel="modulepreload">
 		<link href="../_app/immutable/chunks/DmdjMOuA.js" rel="modulepreload">
-		<link href="../_app/immutable/nodes/7.AvvhmNda.js" rel="modulepreload">
+		<link href="../_app/immutable/nodes/7.w8By5dMB.js" rel="modulepreload">
 		<link href="../_app/immutable/chunks/Cx14ljWi.js" rel="modulepreload">
 		<link href="../_app/immutable/chunks/BY594Gcs.js" rel="modulepreload">
 		<link href="../_app/immutable/chunks/DRmnbu50.js" rel="modulepreload">
@@ -41,15 +76,15 @@
 			
 			<script>
 				{
-					__sveltekit_gh1uhm = {
+					__sveltekit_1r91s8t = {
 						base: new URL("..", location).pathname.slice(0, -1)
 					};
 
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("../_app/immutable/entry/start.BFUqgsEA.js"),
-						import("../_app/immutable/entry/app.DS5iXkoH.js")
+						import("../_app/immutable/entry/start.DYTWcvgG.js"),
+						import("../_app/immutable/entry/app.qJypKCrc.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 7],
